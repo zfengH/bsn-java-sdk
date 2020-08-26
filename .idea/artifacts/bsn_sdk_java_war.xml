@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bsn-sdk-java:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bsn-sdk-java</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bsn-sdk-java.war">
+      <element id="artifact" artifact-name="bsn-sdk-java:war exploded" />
+    </root>
+  </artifact>
+</component>
